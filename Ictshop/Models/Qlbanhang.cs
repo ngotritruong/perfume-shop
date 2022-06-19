@@ -37,7 +37,7 @@ namespace Ictshop.Models
                 .IsFixedLength();
 
             modelBuilder.Entity<Danhchokh>()
-                .Property(e => e.Tenhdkh)
+                .Property(e => e.Tenloai)
                 .IsFixedLength();
 
             modelBuilder.Entity<Nguoidung>()

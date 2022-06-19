@@ -35,7 +35,7 @@ namespace Ictshop.Models
 
         public int? Mahang { get; set; }
 
-        public int? Mahd { get; set; }
+        public int? Maloai { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Chitietdonhang> Chitietdonhang { get; set; }

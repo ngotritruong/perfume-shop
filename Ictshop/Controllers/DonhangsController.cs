@@ -46,6 +46,30 @@ namespace Ictshop.Controllers
             return View(chitiet);
         }
 
+        public ActionResult Delete(int id)
+        {
+            var dh = db.Donhangs.Find(id);
+            return View(dh);
+        }
+        [HttpPost]
+        public ActionResult Delete(int id, FormCollection collection)
+        {
+            try
+            {
+                //Lấy được thông tin sản phẩm theo ID(mã sản phẩm)
+                Chitietdonhang ctdionhang = db.Chitietdonhangs.Find(id);
+                db.Chitietdonhangs.Remove(ctdionhang);
+                db.SaveChanges();
+                Donhang donhang = db.Donhangs.Find(id);
+                db.Donhangs.Remove(donhang);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }    
         protected override void Dispose(bool disposing)
         {
             if (disposing)

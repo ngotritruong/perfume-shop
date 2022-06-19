@@ -5,14 +5,15 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-    <h2>Thông tin chi tiết</h2>
+<h2>Thông tin chi tiết</h2>
 
 <div>
     <h4>Sản phẩm</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Hangsanxuat.Tenhang)
+            @*@Html.DisplayNameFor(model => model.Hangsanxuat.Tenhang)*@
+            Hãng
         </dt>
 
         <dd>
@@ -20,15 +21,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Hedieuhanh.Tenhdh)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Hedieuhanh.Tenhdh)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Tensp)
+            Tên sản phẩm
         </dt>
 
         <dd>
@@ -36,7 +29,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Giatien)
+            Giá
         </dt>
 
         <dd>
@@ -44,7 +37,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Soluong)
+            Số lượng còn
         </dt>
 
         <dd>
@@ -52,7 +45,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Mota)
+            Thông tin sản phẩm
         </dt>
 
         <dd>
@@ -60,43 +53,12 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Thesim)
+            Ảnh
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Thesim)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Bonhotrong)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Bonhotrong)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Sanphammoi)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Sanphammoi)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Ram)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Ram)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Anhbia)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Anhbia)
+            <img src="@Url.Content("~/HinhanhSP/" +@Model.Anhbia)" width="400px" height="400" />
+            @*@Html.DisplayFor(model => model.Anhbia)*@
         </dd>
 
     </dl>

@@ -26,6 +26,23 @@
         .color-header {
             background-color: #f542c2;
         }
+        #bgnGioHang {
+            width: 100px;
+            height: 40px;
+            color: white;
+            border: 0px solid;
+            border-radius: 5px;
+            background-color: #f542c2;
+        }
+
+            #bgnGioHang:hover {
+                background-color: #d61cb1;
+            }
+
+            #bgnGioHang:active {
+                background-color: #f542c2;
+            }
+
     </style>
 </head>
 <body class="sb-nav-fixed">
@@ -66,22 +83,24 @@
                         <div style="padding-left:20px">
                             @Html.ActionLink("Sản phẩm", "Index", "Home")
                         </div>
+
+                        <br />
+                        <div style="padding-left:20px">
+                            @Html.ActionLink("Quản Lý Bán Hàng", "Index", "QLDonHang")
+                        </div>
                         <br />
                         <div style="padding-left:20px">
                             @Html.ActionLink("Hãng sản xuất", "Index", "Hangsanxuats")
                         </div>
                         <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Hệ điều hành", "Index", "Hedieuhanhs")
-                        </div>
-                        <br />
+
                         <div style="padding-left:20px">
                             @Html.ActionLink("Người dùng", "Index", "Nguoidungs")
                         </div>
                         <br />
-                       @* <div style="padding-left:20px">
-                            @Html.ActionLink("Phân quyền", "Index", "Phanquyens")
-                        </div>*@
+                        @* <div style="padding-left:20px">
+            @Html.ActionLink("Phân quyền", "Index", "Phanquyens")
+        </div>*@
 
                         @*<a class="nav-link" href="Home">
             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
@@ -90,10 +109,6 @@
                     </div>                       
                 </div>
 
-                <div class="sb-sidenav-footer">
-                    <div class="small">Logged in as:</div>
-                    CuongIT
-                </div>
             </nav>
         </div>
         <div id="layoutSidenav_content">

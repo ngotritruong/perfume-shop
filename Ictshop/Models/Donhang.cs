@@ -21,7 +21,7 @@ namespace Ictshop.Models
 
         public DateTime? Ngaydat { get; set; }
 
-        public int? Tinhtrang { get; set; }
+        public string Tinhtrang { get; set; }
 
         public int? MaNguoidung { get; set; }
 
@@ -29,5 +29,6 @@ namespace Ictshop.Models
         public virtual ICollection<Chitietdonhang> Chitietdonhang { get; set; }
 
         public virtual Nguoidung Nguoidung { get; set; }
+
     }
 }

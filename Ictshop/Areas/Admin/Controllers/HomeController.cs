@@ -83,7 +83,7 @@ namespace Ictshop.Areas.Admin.Controllers
             var dt = db.Sanphams.Find(id);
             var hangselected = new SelectList(db.Hangsanxuats, "Mahang", "Tenhang",dt.Mahang);
             ViewBag.Mahang = hangselected;
-            var hdhselected = new SelectList(db.Danhchokhs, "Mahd", "Tenhdkh",dt.Mahd);
+            var hdhselected = new SelectList(db.Danhchokhs, "Mahd", "Tenhdkh",dt.Maloai);
             ViewBag.Mahd = hdhselected;
            // 
             return View(dt);
@@ -105,7 +105,7 @@ namespace Ictshop.Areas.Admin.Controllers
                 oldItem.Anhbia = sanpham.Anhbia;
                
                 oldItem.Mahang = sanpham.Mahang;
-                oldItem.Mahd = sanpham.Mahd;
+                oldItem.Maloai = sanpham.Maloai;
                 // lưu lại
                 db.SaveChanges();
                 // xong chuyển qua index

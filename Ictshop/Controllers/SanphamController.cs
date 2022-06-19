@@ -16,17 +16,17 @@ namespace Ictshop.Controllers
         // GET: Sanpham
         public ActionResult dtiphonepartial()
         {
-            var ip = Db.Sanphams.Where(n=>n.Mahang==2).Take(4).ToList();
-           return PartialView(ip);
+            var ip = Db.Sanphams.Where(n => n.Maloai == 3).Take(4).ToList();
+            return PartialView(ip);
         }
         public ActionResult dtsamsungpartial()
         {
-            var ss = Db.Sanphams.Where(n => n.Mahang == 1).Take(4).ToList();
+            var ss = Db.Sanphams.Where(n => n.Maloai == 1).Take(4).ToList();
             return PartialView(ss);
         }
         public ActionResult dtxiaomipartial()
         {
-            var mi = Db.Sanphams.Where(n => n.Mahang == 3).Take(4).ToList();
+            var mi = Db.Sanphams.Where(n => n.Maloai == 2).Take(4).ToList();
             return PartialView(mi);
         }
         //public ActionResult dttheohang()
@@ -34,6 +34,20 @@ namespace Ictshop.Controllers
         //    var mi = db.Sanphams.Where(n => n.Mahang == 5).Take(4).ToList();
         //    return PartialView(mi);
         //}
+        public ActionResult ListSanPham(string SearchString = "")
+        {
+            if (SearchString != "")
+            {
+                var ListSP = Db.Sanphams.Where(x => x.Tensp.ToUpper().Contains(SearchString.ToUpper()));
+                return PartialView(ListSP.ToList());
+            }
+            else
+            {
+                var ListSP = Db.Sanphams.ToList();
+                return PartialView(ListSP);
+            }
+
+        }
         public ActionResult xemchitiet(int Masp=0)
         {
             var chitiet = Db.Sanphams.SingleOrDefault(n=>n.Masp==Masp);

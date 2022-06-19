@@ -57,8 +57,10 @@ namespace Ictshop.Controllers
                 {
                     if (userMail == "Admin@gmail.com")
                         {
-                           Session["use"] = islogin;
-                           return RedirectToAction("Index", "Admin/Home");
+                            {
+                                Session["use"] = islogin;
+                                return RedirectToAction("Index", "Admin/Home");
+                            }      
                         }
                      else
                          {

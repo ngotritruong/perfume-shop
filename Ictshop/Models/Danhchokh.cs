@@ -16,10 +16,10 @@ namespace Ictshop.Models
         }
 
         [Key]
-        public int Mahd { get; set; }
+        public int Maloai { get; set; }
 
         [StringLength(10)]
-        public string Tenhdkh { get; set; }
+        public string Tenloai { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sanpham> Sanpham { get; set; }

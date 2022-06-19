@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+
+<div class="container-contact">
+    <form onsubmit="sendEmail(); reset(); return false;">
+        <h3 style=" color: #f542c2;">CONTACT US</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="email" placeholder="Email" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <textarea id="message" rows="4" placeholder="How can i help you ?"></textarea>
+        <button type="submit" id="bgnGioHang">Send</button>
+    </form>
+    <div id='map'></div>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+        function sendEmail(){
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "ngotritruong.628@gmail.com",
+                Password: "5317DC1990B535912332A2D00ED76E02EB4C",
+                To: "truongjack2806@gmail.com",
+                From: document.getElementById("email").value,
+                Subject: "New Contact Form Enquiry",
+                Body: "Tên là: " + document.getElementById("name").value
+                    + "<br> Email là: " + document.getElementById("email").value
+                    + "<br> Số Điện Thoại là: " + document.getElementById("phone").value
+                    + "<br> Message là: " + document.getElementById("message").value
+                   
+            }).then(
+            message => alert("Gởi thành công. Cảm ơn bạn đã liên hệ !")
+            );
+        }
+</script>
+<script  defer>
+    mapboxgl.accessToken =
+        "pk.eyJ1IjoibmdvdHJpdHJ1b25nIiwiYSI6ImNsNGR6N3d5bzA5c2sza3F3YmxjeGxtZ2cifQ.hwbKO6idIyqSQcC6fy-uiA"
+
+    navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
+        enableHighAccuracy: true
+    })
+
+    function successLocation(position) {
+        setupMap([position.coords.longitude, position.coords.latitude])
+    }
+
+    function errorLocation() {
+        setupMap([-2.24, 53.48])
+    }
+
+    function setupMap(center) {
+        const map = new mapboxgl.Map({
+            container: "map",
+            style: "mapbox://styles/mapbox/streets-v11",
+            center: center,
+            zoom: 15
+        })
+
+        const nav = new mapboxgl.NavigationControl()
+        map.addControl(nav)
+
+        var directions = new MapboxDirections({
+            accessToken: mapboxgl.accessToken
+        })
+
+        map.addControl(directions, "top-left")
+    }
+
+</script>
+
+

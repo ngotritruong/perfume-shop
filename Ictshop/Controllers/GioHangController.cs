@@ -91,7 +91,6 @@ namespace Ictshop.Controllers
             if (sanpham != null)
             {
                 lstGioHang.RemoveAll(n => n.iMasp == iMaSP);
-
             }
             if (lstGioHang.Count == 0)
             {

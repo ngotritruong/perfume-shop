@@ -5,7 +5,7 @@
     ViewBag.Title = "GioHang";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<center><h2 class="text-info"> GIỎ HÀNG</h2></center>
+<center><h2 class="text-info" style=" padding: 30px; color: #f542c2; font-weight: bold;"> GIỎ HÀNG</h2></center>
 
 <table class="table-bordered font-italic divGioHang">
     <tr>
@@ -42,16 +42,18 @@
 
                 <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
                 <td>
-                    <input type="submit" value="Cập nhật" class="btn-secondary" />
+                    <input type="submit" value="Cập nhật" id="bgnGioHang" />
                     <br />
                     @*Xóa giỏ hàng gọi về Action XoaGioHang*@
-                    <button class="btn-success">@Html.ActionLink("Xóa", "XoaGioHang", new { @iMaSP = item.iMasp })</button>
+                    <button id="bgnGioHang" style="background-color:red;">@Html.ActionLink("Xóa", "XoaGioHang", new { @iMaSP = item.iMasp })</button>
                 </td>
             }
 
         </tr>
     }
 </table>
+    }
+
 
 @*Css giỏ hàng*@
 <style type="text/css">

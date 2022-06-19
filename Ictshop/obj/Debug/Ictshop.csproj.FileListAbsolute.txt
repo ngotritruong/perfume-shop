@@ -441,3 +441,201 @@ C:\DOANCOSO_NGOTRITRUONG\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CoreCompi
 C:\DOANCOSO_NGOTRITRUONG\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CopyComplete
 C:\DOANCOSO_NGOTRITRUONG\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.dll
 C:\DOANCOSO_NGOTRITRUONG\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.pdb
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Ictshop.dll.config
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Ictshop.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Ictshop.pdb
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\csc.exe
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\csc.exe.config
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\csc.rsp
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\csi.exe
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\csi.rsp
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\System.AppContext.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\vbc.exe
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\vbc.exe.config
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\vbc.rsp
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\VBCSCompiler.exe
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Antlr3.Runtime.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\EntityFramework.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\EntityFramework.SqlServer.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Newtonsoft.Json.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\PagedList.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\PagedList.Mvc.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Helpers.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Mvc.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Optimization.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Razor.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Razor.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\WebGrease.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\EntityFramework.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\EntityFramework.SqlServer.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\PagedList.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\PagedList.Mvc.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Helpers.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Mvc.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Optimization.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.Razor.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Razor.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Newtonsoft.Json.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Antlr3.Runtime.pdb
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.AssemblyReference.cache
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.Migrations.AddThanhtien.resources
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.GenerateResource.cache
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CoreCompileInputs.cache
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CopyComplete
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.dll
+C:\Users\truon\MyLearning\DOANCOSO!\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.pdb
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Ictshop.dll.config
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Ictshop.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Ictshop.pdb
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\csc.exe
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\csc.exe.config
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\csc.rsp
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\csi.exe
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\csi.rsp
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\System.AppContext.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\vbc.exe
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\vbc.exe.config
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\vbc.rsp
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\VBCSCompiler.exe
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Antlr3.Runtime.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\EntityFramework.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\EntityFramework.SqlServer.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Newtonsoft.Json.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\PagedList.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\PagedList.Mvc.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Helpers.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Mvc.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Optimization.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Razor.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Razor.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\WebGrease.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\EntityFramework.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\EntityFramework.SqlServer.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\PagedList.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\PagedList.Mvc.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Helpers.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Mvc.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Optimization.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.Razor.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Razor.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Newtonsoft.Json.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Antlr3.Runtime.pdb
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.AssemblyReference.cache
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.Migrations.AddThanhtien.resources
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.GenerateResource.cache
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CoreCompileInputs.cache
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CopyComplete
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.dll
+C:\Users\KHANG JOSEPH\Desktop\DoAnCoSo\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.pdb
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Ictshop.dll.config
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Ictshop.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Ictshop.pdb
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\csc.exe
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\csc.exe.config
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\csc.rsp
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\csi.exe
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\csi.rsp
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\System.AppContext.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\vbc.exe
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\vbc.exe.config
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\vbc.rsp
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\VBCSCompiler.exe
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Antlr3.Runtime.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\EntityFramework.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\EntityFramework.SqlServer.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Newtonsoft.Json.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\PagedList.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\PagedList.Mvc.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Helpers.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Mvc.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Optimization.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Razor.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Razor.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\WebGrease.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\EntityFramework.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\EntityFramework.SqlServer.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\PagedList.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\PagedList.Mvc.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Helpers.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Mvc.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Optimization.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.Razor.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\System.Web.WebPages.Razor.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Newtonsoft.Json.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Antlr3.Runtime.pdb
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.AssemblyReference.cache
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.Migrations.AddThanhtien.resources
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.GenerateResource.cache
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CoreCompileInputs.cache
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.csproj.CopyComplete
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.dll
+C:\Users\truon\MyLearning\DOANCOSONEW\PERFUME_TEST\Ictshop\obj\Debug\Ictshop.pdb

@@ -23,7 +23,12 @@ namespace Ictshop.Controllers
             return View();
         }
 
-      
+        public ActionResult Contact()
+        {
+
+            return View();
+
+        }
         public ActionResult SlidePartial()
         {
             return PartialView();

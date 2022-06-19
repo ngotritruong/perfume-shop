@@ -5,8 +5,11 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Chi tiết đơn hàng</h2>
+<h2 style=" padding: 30px; color: #f542c2; font-weight: bold;">CHI TIẾT ĐƠN HÀNG</h2>
 
+<form  action="/DonHangs">
+    <button type="submit" id="bgnGioHang" style = "color:white; padding:10px"><i class="fa-solid fa-left-long"></i></button>
+</form>
 <table class="table">
     <tr>
         <th>
@@ -17,7 +20,7 @@
         </th>
         <th>
             Đơn giá / 1 sản phẩm
-         </th>
+        </th>
         <th>
             Thành tiền
         </th>
@@ -25,20 +28,21 @@
 
     @foreach (var item in Model)
     {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.Sanpham.Tensp)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Soluong)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Dongia)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Thanhtien)
-    </td>
-</tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sanpham.Tensp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dongia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Thanhtien)
+            </td>
+        </tr>
+        
     }
 
 </table>
