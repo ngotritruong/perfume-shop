@@ -1,0 +1,62 @@
+﻿@model Ictshop.Models.Donhang
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style=" padding: 30px; color: #f542c2; font-weight: bold;">BẠN CÓ CHẮC MUỐN HỦY ĐƠN HÀNG KHÔNG</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Madon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Madon)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaydat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaydat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaynhandk)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaynhandk)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tinhtrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tinhtrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaNguoidung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNguoidung)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions ">
+            <input type="submit" value="Delete" id="bgnGioHang" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

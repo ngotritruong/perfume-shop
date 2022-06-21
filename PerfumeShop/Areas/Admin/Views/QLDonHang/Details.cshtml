@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Ictshop.Models.Chitietdonhang>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style=" padding: 30px; color: #f542c2; font-weight: bold;">CHI TIẾT ĐƠN HÀNG</h2>
+
+<form action="/Admin/QLDonHang">
+    <button type="submit" id="bgnGioHang" style="color:white; padding:10px"><i class="fa-solid fa-left-long"></i></button>
+</form>
+<table class="table">
+    <tr>
+        <th>
+            Sản phẩm
+        </th>
+        <th>
+            Số lượng
+        </th>
+        <th>
+            Đơn giá / 1 sản phẩm
+        </th>
+        <th>
+            Thành tiền
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sanpham.Tensp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dongia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Thanhtien)
+            </td>
+        </tr>
+
+    }
+
+</table>

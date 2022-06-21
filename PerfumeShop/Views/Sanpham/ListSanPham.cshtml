@@ -1,0 +1,40 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<Ictshop.Models.Sanpham>
+@{
+    ViewBag.Title = "DANH SACH SAN PHAM";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="text-reset-black" style="display: flex; flex-direction:column; text-align:center; align-items: center">
+        <h3 style="text-align: center; padding: 30px; color: #f542c2; font-weight: bold; max-width: 50%; "> DANH SÁCH SẢN PHẨM </h3>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 col-sm-6 border-box" style="margin-bottom: 10px; padding: 10px">
+            <div style="margin: 0px 10px; border: 0px solid #D8BFD8; border-radius: 15px; padding: 10px; ">
+
+                <a href="@Url.Action("xemchitiet", new {@Masp=item.Masp })">
+                    <img src=@Url.Content("~/HinhanhSP/"+item.Anhbia) class="img-responsive" alt="" width="400" height="400" style="border-radius: 15px" />
+                </a>
+                <center>
+                    <h3 style="white-space: nowrap; width: 100%; overflow: hidden; text-overflow: ellipsis ">@item.Tensp</h3>
+                    <h3 style="color:red">Giá: @item.Giatien</h3>
+                    <br />
+                    @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = item.Masp, @strURL = Request.Url.ToString() }))
+                    {
+                        <input type="submit" value="Mua hàng" id="bgnGioHang" />
+
+                    }
+
+                </center>
+            </div>
+
+        </div>
+    }
+
+</div>
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page }))

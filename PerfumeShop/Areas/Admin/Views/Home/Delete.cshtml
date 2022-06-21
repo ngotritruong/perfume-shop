@@ -1,0 +1,75 @@
+﻿@model Ictshop.Models.Sanpham
+@{
+    ViewBag.Title = "| Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="color :#f542c2 ">xÓA VĨNH VIỄN SẢN PHẨM</h2>
+
+
+<div>
+    <h4>Sanpham</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Hangsanxuat.Tenhang)*@
+            Hãng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hangsanxuat.Tenhang)
+        </dd>
+
+        <dt>
+            Tên sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tensp)
+        </dd>
+
+        <dt>
+            Giá
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Giatien)
+        </dd>
+
+        <dt>
+            Số lượng còn
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluong)
+        </dd>
+
+        <dt>
+            Thông tin sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+
+        <dt>
+            Ảnh
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/HinhanhSP/" +@Model.Anhbia)" width="400" height="400" />
+            @*@Html.DisplayFor(model => model.Anhbia)*@
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-warning" /> |
+            @Html.ActionLink("Về trang chủ", "Index")
+        </div>
+    }
+</div>

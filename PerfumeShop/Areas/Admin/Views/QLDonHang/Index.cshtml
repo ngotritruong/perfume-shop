@@ -1,0 +1,76 @@
+﻿
+@model PagedList.IPagedList<Ictshop.Areas.ViewModel.QuanlybannuochoaVM>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style=" padding: 30px; color: #f542c2; font-weight: bold;">QUẢN LÝ BÁN HÀNG</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Mã đơn hàng
+        </th>
+        <th>
+            Ngày đặt
+        </th>
+        <th>
+            Tình trạng
+        </th>
+        <th>
+            Mã người đặt
+        </th>
+        <th>
+            Tên người đặt
+        </th>
+        <th>
+            Số ĐT
+        </th>
+        <th>
+            Đỉa chỉ
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Madon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaydat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tinhtrang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNguoidung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nguoidung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dienthoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diachi)
+            </td>
+            <td>
+                <button id="bgnGioHang">
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.Madon }, new { @style = "color:white;" })
+                </button>
+
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page }))

@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERFUME-SHOP @ViewBag.Title </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="icon" href="~/Content/Image/perfume.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel=" stylesheet" href="~/Content/Style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet"
+          href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+          type="text/css" />
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    @using Ictshop.Models
+
+    <style type="text/css">
+        body {
+            background-color: #F0F0F0;
+        }
+
+        .navbar-inverse {
+            background-color: #f542c2;
+            border-color: #f542c2;
+        }
+
+        .top_header {
+            background-color: Black;
+            padding-left: 190px;
+            color: #f542c2;
+            height: 40px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .form-inline {
+            float: right;
+            padding-top: 10px;
+        }
+
+        .navbar-inverse .navbar-nav > li > a {
+            color: white;
+            font-size: x-large;
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: white;
+        }
+
+        .navbar-inverse .navbar-nav > li > a {
+            color: white;
+            font-size: large;
+        }
+
+            .navbar-inverse .navbar-nav > li > a:hover {
+                color: black;
+            }
+
+        .navbar-brand {
+            color: cadetblue;
+        }
+
+        .container {
+        }
+
+        .spnoibat {
+            background-color: white;
+        }
+
+            .spnoibat h3 {
+                padding-left: 30px;
+            }
+
+        .giohang {
+            color: #f542c2;
+        }
+
+        .giohang2 {
+            position: absolute;
+            text-align: center;
+        }
+
+        .footer-color {
+            color: #f542c2;
+        }
+
+        .text-reset {
+            color: #f542c2;
+        }
+
+        .text-reset-black {
+            color: black;
+        }
+
+        .spnoibat {
+            position: relative;
+            overflow: hidden;
+        }
+
+            .spnoibat row {
+                position: absolute;
+            }
+
+        .border-box {
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 10px;
+            transition: box-shadow 0.7s;
+        }
+
+            .border-box:hover {
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            }
+
+        #bgnGioHang {
+            width: 100px;
+            height: 40px;
+            color: white;
+            border: 0px solid;
+            border-radius: 5px;
+            background-color: #f542c2;
+        }
+
+            #bgnGioHang:hover {
+                background-color: #d61cb1;
+            }
+
+            #bgnGioHang:active {
+                background-color: #f542c2;
+            }
+
+        .container-contact {
+            width: 100%;
+            height: 80vh;
+            background-color: #f2ecf5;
+            display: flex;
+        }
+
+            .container-contact form {
+                background: #fff;
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                width: 90%;
+                max-width: 360px;
+                height: 550px;
+                border-radius: 5px;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            }
+
+                .container-contact form h3 {
+                    color: #555;
+                    font-weight: 800;
+                    margin-bottom: 20px;
+                }
+
+                .container-contact form input, .container-contact form textarea {
+                    border: 0px #f542c2;
+                    margin: 10px 0;
+                    padding: 16px;
+                    width: 100%;
+                    background: #f5f5f5;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                }
+
+        #map {
+            height: 550px;
+            width: 800px;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            padding: 5px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    @{
+        var u = Session["use"] as Ictshop.Models.Nguoidung;
+    }
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "103549019072965");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v14.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="top_header col-md-12">
+
+            <div class="row">
+                @*<div class="col-sm-2"><img class="navbar-brand" src="~/HinhanhSP/logo1.jpg" width="20" height="20" style="padding:0" /></div>*@
+                <div class="col-sm-4 col-md-0" style="font-size:2em; ">PERFUME</div>
+
+                <div class="col-sm-7 col-md-0 giohang2" style="padding-left:250px">
+                    @Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })
+                </div>
+                @*@Html.Action("GioHangPartial", "GioHang",new { @style = "color:#f542c2" })*@
+                @{
+                    if (u != null)
+                    {
+                        <div class="col-sm-4 col-md-0" style=" top: 9px; position:absolute; right:-83px">
+                            HI😁: @u.Hoten
+                            &nbsp;
+                            @*@Html.ActionLink("ĐĂNG XUẤT", "DangXuat", "User", new { style = "color:red" })*@
+                            <a style="color: #f542c2" href="/User/DangXuat">ĐĂNG XUẤT</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-sm-4 col-md-0" style=" top: 9px; position:absolute; right:-135px">
+                            <a style="color: #f542c2; font-size: large" href="/User/Dangky"> Đăng ký</a>
+                            &nbsp;
+                            <a style="color: #f542c2; font-size: large" href="/User/Dangnhap"> Đăng nhập</a>
+                        </div>
+                    }
+                }
+
+
+            </div>
+
+        </div>
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <form class="form-inline" action="/Sanpham/ListSanPham" style="float:left">
+                    @Html.TextBox("SearchString", "", new { @class = "form-control" })
+                    <input class="btn btn-default" type="submit" value="Search">
+                </form>
+
+            </div>
+
+            <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/Home/Index" title="TRANGCHU">
+                            @*<span><i class=" glyphicon-music "></i></span>*@
+                            <span>TRANG CHỦ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Sanpham/ListSanPham" title="SANPHAM">
+                            @*<span><i class=" glyphicon-music "></i></span>*@
+                            <span>SẢN PHẨM</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Contact" title="LIÊN HỆ">
+                            @*<span><i class=" glyphicon-music "></i></span>*@
+                            <span>LIÊN HỆ</span>
+                        </a>
+                    </li>
+                    @*<span><i class=" glyphicon-music "></i> </span>
+                        <br />
+                        <span>@Html.ActionLink("Trang chủ", "Index", "Home") </span>*@
+
+                    <li>
+                        <a style="color:white"
+                           class="nav-link"
+                           href="@Url.Action("Index", "DonHangs")">ĐƠN HÀNG</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <div>
+            <img class="img-responsive" src="~/HinhanhSP/banner.jpg" />
+        </div>
+        <br />
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted footer-color">
+        <!-- Section: Social media -->
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h3 class="text-uppercase fw-bold mb-4">
+                            PERFUME
+                        </h3>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Follow
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter"></i>Twitter</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram"></i> Instagram</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin"></i> Linkin</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Liên Hệ
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> Bình Thạnh, Tp.Hồ Chí Minh, Việt Nam</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <a href="mailto:Support@example.com" class="text-reset">ngotritruong@gmail.com </a>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <a href="mailto:Support@example.com" class="text-reset">voduykhang312001@gmail.com </a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 0123456789</p>
+                        <p><i class="fas fa-print me-3"></i> + 0999999999</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.0);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

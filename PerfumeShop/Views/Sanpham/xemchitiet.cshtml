@@ -1,0 +1,47 @@
+﻿@using Ictshop.Models
+@model Sanpham
+
+
+@{
+    ViewBag.Title = "| CHI TIẾT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+
+<CENTER>
+    <div style="width: 40%">
+        <h2>CHI TIẾT SẢN PHẨM</h2>
+        <img src="@Url.Content("~/HinhanhSP/" +@Model.Anhbia)" />
+        <br />
+        <h3 style="font-weight:bold; font-size:32px;"> @Model.Tensp</h3>
+        <h3 style="color:red">Giá: @Model.Giatien</h3>
+        <br />
+
+        @{
+            var gender = "";
+            if (Model.Maloai == 1)
+            {
+                gender = "Nam";
+            }
+            else if (Model.Maloai == 2)
+            {
+                gender = "Nữ";
+            }
+            else
+            {
+                gender = "Nam & Nữ";
+            }
+            <p style="font-size: 18px; font-weight: bold">Giới tính: @gender </p>
+        }
+        <div style="font-size: 20px; text-align:center;">
+            @Model.Mota
+        </div>
+        <br />
+        @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = Model.Masp, @strURL = Request.Url.ToString() }))
+        {
+            <input type="submit" value="Mua hàng" id="bgnGioHang" />
+
+        }
+
+    </div>
+</CENTER>
